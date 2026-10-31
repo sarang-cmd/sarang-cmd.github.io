@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ArrowDown, ArrowUpRight, Github, MessageCircle, Code2 } from 'lucide-react'
+import { injectSpeedInsights } from '@vercel/speed-insights'
 import BrutalistDeckLoader from '@/components/ui/brutalist-deck-loader'
 import HalftoneWordmarkFooter from '@/components/ui/halftone-wordmark-footer'
 import { SocialIcons } from '@/components/ui/social-icons'
@@ -8,6 +9,8 @@ import { ProfileTerminal } from '@/components/ui/profile-terminal'
 import { TechStack } from '@/components/ui/tech-stack'
 import '@fontsource-variable/manrope'
 import './index.css'
+
+injectSpeedInsights()
 
 const projects=[
   {number:'01',title:'Sarang.md',description:'An IB Mathematics AA study space with lessons and practice questions.',url:'https://sarang-md.vercel.app/',category:'LEARNING'},

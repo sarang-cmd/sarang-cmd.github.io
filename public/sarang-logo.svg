@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Sarang logo</title>
+  <path d="M22 3h20c12.5 0 19 6.5 19 19v20c0 12.5-6.5 19-19 19H22C9.5 61 3 54.5 3 42V22C3 9.5 9.5 3 22 3Z" fill="#f3ce37" stroke="#191919" stroke-width="4"/>
+  <path d="M40.8 20.2c-3-3.1-8-4.2-12.4-3-4.3 1.1-6.7 3.7-6.7 7 0 4.1 3.4 5.7 9.5 7.1 6.3 1.4 9.7 3.5 9.7 7.5 0 4.3-4.1 7.4-9.7 7.4-4.2 0-8.4-1.5-11-4.2" fill="none" stroke="#191919" stroke-width="6.3" stroke-linecap="round"/>
+  <rect x="45" y="43" width="7" height="7" rx="1.8" fill="#ea735f" stroke="#191919" stroke-width="1.3"/>
+</svg>
